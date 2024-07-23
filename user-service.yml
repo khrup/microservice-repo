@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: 'jdbc:h2:tcp://localhost:9092/~/testdb'
+    # '{cipher}'는 해당 값이 암호화되었다는 뜻이다. 원래값 sa
+    username: '{cipher}91680ddbab86a7fb26e69e9b576a62ef9ebaebc3dedefdb61586b39e43304c4b'
+    password:
