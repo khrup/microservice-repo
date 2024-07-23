@@ -1,6 +1,14 @@
 token:
   expiration_time: 964001
-  secret: 4444PRODrkGU45258GGhiolLO2465TFY5345kGU45258GGhiolLO2465TFY5345rkGU45258GGhiolLO2465TFY5345kGU45258GGhiolLO2465TFY5345
+  secret: '{cipher}508b4ca75ecd56e2efe92b9542f73bd268bd1972e22e04b682944184ff3d414a4cf23d70fd7bc7db1cccb4b7948e104f'
 
 gateway:
   ip: 192.168.219.102
+
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: 'jdbc:h2:tcp://localhost:9092/~/testdb'
+    # '{cipher}'는 해당 값이 암호화되었다는 뜻이다. 원래값 sa
+    username: '{cipher}91680ddbab86a7fb26e69e9b576a62ef9ebaebc3dedefdb61586b39e43304c4b'
+    password:
