@@ -10,5 +10,5 @@ spring:
     driver-class-name: org.h2.Driver
     url: 'jdbc:h2:tcp://localhost:9092/~/testdb'
     # '{cipher}'는 해당 값이 암호화되었다는 뜻이다. 원래값 sa
-    username: '{cipher}91680ddbab86a7fb26e69e9b576a62ef9ebaebc3dedefdb61586b39e43304c4b'
+    username: '{cipher}AQCB6SvrSHa1sNqH+ZMgXuxxpjbiFH8Ya5E0uK1Cah6kJFYies4TmMgqGFJIA5QOMESWLns36GZ/DM8lAW2q/Dxc4MlFNWvFS7FRm7mXCcgIYkb8irSuAh23J9jkWkzCbbyiJ3AR9McIymJr8iz7iVpZXvROA5Dy0/CDjSbH8qR1SEqIetrBhoin3/fStCAZtkYbCrXuIBy8Rw85IKT59t/XbqPYy3sX1ogW3JVee06X6XCVfVY3L6ypB/vkE9biEKFGpjjAyMr49D5EGzVTGh7Xl3oKutIcjv9h36YJuwr4KLQVZ5BtzYCHekWOxCR6yXjWV3YiYTCEJ6IGGpITX36oW8N/nXECoFTEGo/2AFAd7Pgjw2px8zaGahT+qfN9ShQ='
     password:
